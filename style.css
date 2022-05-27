@@ -1,0 +1,58 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    background: rgb(255, 153, 192);
+}
+.main{
+    margin: auto;
+    margin-top: 5rem;
+    padding: 2rem;
+    width: max-content;
+    background: rgb(252, 97, 136);
+    box-shadow: 1px 2px rgb(232, 86, 86)
+}
+.date-match-main-body{
+    display: grid;
+    justify-content: center;
+    padding: 0;
+    grid-template-rows: minmax(3rem, auto) repeat(3, 3rem);
+}
+.app-title{
+    font-size: 2rem;
+    color: rgb(54, 17, 29);
+    padding: .75rem;
+    text-align: center;
+}
+.app-desc{
+    font-size: 1.25rem;
+    padding: .75rem;
+    color: rgb(105, 24, 58);
+    text-align: center;
+}
+.match-button{
+    padding: 0 .75rem;
+    text-align: center;
+}
+.match-button button{
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    background: rgb(57, 117, 72);
+    border: 1px solid rgb(21, 58, 31);
+    cursor: pointer;
+    color: rgb(203, 255, 238);
+}
+.match-button button:hover, .match-button button:focus{
+    background: rgb(21, 58, 31);
+
+}
+.result{
+    background: rgba(252, 31, 31, 0.719);
+    padding: .75rem;
+    font-size: 1.1rem;
+    max-width: 30rem;
+    height: max-content;
+    color:rgb(24, 22, 22)
+}
